@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.ReportsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:focusableInTouchMode="true"
+        android:scrollbars="vertical">
+
+    <LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content" android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reportData"/>
+
+    <com.androidplot.pie.PieChart android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/pieChart"
+        android:layout_below="@+id/reportData"
+        ap:labelTextColor="@color/ap_black"
+        ap:labelTextSize="20dp"
+
+        android:minWidth="100dp"
+        android:minHeight="500dp"
+
+         />
+
+    <com.androidplot.xy.XYPlot android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/barChart"
+        android:layout_below="@+id/pieChart"
+        androidPlot.graphWidget.marginTop="20dp"
+        androidPlot.graphWidget.marginLeft="5dp"
+        androidPlot.graphWidget.marginBottom="30dp"
+        androidPlot.graphWidget.marginRight="30dp"
+        ap:labelTextColor="#FFB6B0B0"
+        ap:labelTextSize="20dp"
+        android:background="#ffffff"
+        android:minWidth="100dp"
+        android:minHeight="500dp"
+        />
+
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

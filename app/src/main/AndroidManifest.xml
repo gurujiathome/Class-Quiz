@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="odu.handson.classquiz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/classquiz_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ef4536165c7f1bb686f58e505452a0b7f8320b4f"
+            />
+        <activity
+            android:name=".UI.LoginActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTop"
+            android:noHistory="false"
+            android:persistableMode="persistAcrossReboots">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.DisplayquizActivity" />
+        <activity android:name=".UI.DisplayquestionActivity" />
+        <activity android:name=".UI.DisplaycompletequizActivity" />
+        <activity android:name=".UI.CompletedquizActivity"></activity>
+    </application>
+
+</manifest>

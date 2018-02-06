@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <config
+        fillPaint.color="@color/colorPrimary"
+        labelPaint.textSize="50dp"
+        innerEdgePaint.color = "@color/colorPrimary"
+        outerEdgePaint.color = "@color/colorPrimary"
+        radialEdgePaint.color= "@color/colorPrimary"
+        linePaint.strokeWidth="0dp"
+        labelPaint.color="@color/colorPrimary"/>
+</PreferenceScreen>
