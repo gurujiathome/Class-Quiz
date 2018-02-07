@@ -1,6 +1,6 @@
 # Class-Quiz
 
-Available in the [Google Store](https://play.google.com/store/apps/details?id=odu.handson.classquiz&hl=en)
+Available in the [Google Store](https://play.google.com/store/apps/details?id=odu.handson.classquiz&hl=en) for all android devices with version more than Android 4.0.4
 
 This app allows students to take online quizzes. 
 Following are features supported.
