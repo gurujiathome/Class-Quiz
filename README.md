@@ -10,7 +10,7 @@ Following are features supported.
 3. Allows students to review past quizzes.
 4. This service can be used by any university or test conducting organization to allow their students to take online exams.
 
-Crash analysis
+Crash analysis:
 Uses crashlytics to record crashes and report bugs.
 
 This app is built on Android Studio 2.2.2.
